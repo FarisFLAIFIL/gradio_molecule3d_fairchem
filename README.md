@@ -8,7 +8,7 @@ sdk: gradio
 pinned: false
 app_file: space.py
 ---
-This is a custom packages of fairchem, a fork of the excellent gradio_molecule3d package (https://huggingface.co/spaces/simonduerr/gradio_molecule3d/tree/main) in the gradio_molecule3d subdirectory for visualization of structures in 3dmol.js via gradio components. There are a number of small changes needed for the demo here, primarily:
+This is a custom packages of fairchem (https://huggingface.co/spaces/facebook/fairchem_uma_demo/tree/main/gradio_molecule3d), a fork of the excellent gradio_molecule3d package (https://huggingface.co/spaces/simonduerr/gradio_molecule3d/tree/main) in the gradio_molecule3d subdirectory for visualization of structures in 3dmol.js via gradio components. There are a number of small changes needed for the demo here, primarily:
 
 * Add support for PBC visualization
 * Add support for conversion of formats unsupported by 3dmol.js via ASE
